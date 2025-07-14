@@ -1,0 +1,10 @@
+       body {
+            font-family: sans-serif;
+        }
+        .sticky {
+            position: sticky;
+            top: 0;
+            background: lightgreen;
+            padding: 10px;
+            text-align: center;
+        }

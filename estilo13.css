@@ -1,0 +1,15 @@
+        body {
+            height: 200vh; 
+            font-family: sans-serif;
+            text-align: center;
+        }
+        .fijo {
+            position: fixed;
+            top: 10px;
+            left: 10px;
+            background-color: orange;
+            padding: 10px 15px;
+            border: none;
+            color: white;
+            cursor: pointer;
+        }

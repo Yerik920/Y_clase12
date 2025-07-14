@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propuesto 3: Evitar Colapso</title>
+    <style>
+        .padre {
+            overflow: hidden;
+            background: #eee;
+            padding: 10px;
+        }
+        .hijo {
+            float: left;
+            width: 50%;
+            height: 100px;
+            background: blue;
+            box-sizing: border-box; 
+            border: 2px solid white;
+        }
+    </style>
+</head>
+<body>
+    <div class="padre">
+        <div class="hijo"></div>
+        <div class="hijo"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+        .relativo {
+            position: relative;
+            top: 10px;
+            left: 20px;
+            background: lightblue;
+            width: fit-content;
+        }

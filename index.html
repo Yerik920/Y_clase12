@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Índice de Ejercicios - Diseño Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2a9d8f;
+            --secondary-color: #264653;
+            --background-color: #f4f4f9;
+            --font-color: #333;
+            --card-background: #ffffff;
+            --shadow-color: rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: 'Poppins', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--background-color);
+            background-image: linear-gradient(to top right, #e0f7fa, #f4f4f9);
+            color: var(--font-color);
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            background-color: transparent;
+            text-align: center;
+        }
+
+        header {
+            margin-bottom: 40px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            font-weight: 700;
+            color: var(--secondary-color);
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1em;
+            color: #555;
+            margin: 5px 0;
+            font-weight: 300;
+        }
+
+        header p strong {
+            font-weight: 600;
+            color: var(--primary-color);
+        }
+
+        .exercise-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px; 
+            padding: 0;
+            list-style: none;
+        }
+
+        .exercise-card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            background-color: var(--card-background);
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            text-decoration: none;
+            color: var(--secondary-color);
+            font-size: 1.2em;
+            font-weight: 600;
+            height: 100px;
+            box-shadow: 0 4px 15px var(--shadow-color);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .exercise-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 25px rgba(42, 157, 143, 0.3);
+            background-color: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Índice de Ejercicios</h1>
+            <p><strong>Curso:</strong> Diseño Web - Actividad 12</p>
+            <p><strong>Estudiante:</strong> Yerik Vargas Bonifacio</p>
+        </header>
+
+        <main>
+            <div class="exercise-grid">
+                <a href="ejercicio1.html" class="exercise-card" target="_blank">Ejercicio 1</a>
+                <a href="ejercicio2.html" class="exercise-card" target="_blank">Ejercicio 2</a>
+                <a href="ejercicio3.html" class="exercise-card" target="_blank">Ejercicio 3</a>
+                <a href="ejercicio4.html" class="exercise-card" target="_blank">Ejercicio 4</a>
+                <a href="ejercicio5.html" class="exercise-card" target="_blank">Ejercicio 5</a>
+                <a href="ejercicio6.html" class="exercise-card" target="_blank">Ejercicio 6</a>
+                <a href="ejercicio7.html" class="exercise-card" target="_blank">Ejercicio 7</a>
+                <a href="ejercicio8.html" class="exercise-card" target="_blank">Ejercicio 8</a>
+                <a href="ejercicio9.html" class="exercise-card" target="_blank">Ejercicio 9</a>
+                <a href="ejercicio10.html" class="exercise-card" target="_blank">Ejercicio 10</a>
+                <a href="ejercicio11.html" class="exercise-card" target="_blank">Ejercicio 11</a>
+                <a href="ejercicio12.html" class="exercise-card" target="_blank">Ejercicio 12</a>
+                <a href="ejercicio13.html" class="exercise-card" target="_blank">Ejercicio 13</a>
+                <a href="ejercicio14.html" class="exercise-card" target="_blank">Ejercicio 14</a>
+                <a href="ejercicio15.html" class="exercise-card" target="_blank">Ejercicio 15</a>
+                <a href="ejercicio16.html" class="exercise-card" target="_blank">Ejercicio 16</a>
+                <a href="ejercicio17.html" class="exercise-card" target="_blank">Ejercicio 17</a>
+                <a href="ejercicio18.html" class="exercise-card" target="_blank">Ejercicio 18</a>
+                <a href="ejercicio19.html" class="exercise-card" target="_blank">Ejercicio 19</a>
+                <a href="ejercicio20.html" class="exercise-card" target="_blank">Ejercicio 20</a>
+            </div>
+        </main>
+    </div>
+
+</body>
+</html>

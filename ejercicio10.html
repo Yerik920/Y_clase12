@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propuesto 5: Dos Columnas con Pie</title>
+    <style>
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden; /* Contiene las columnas flotantes */
+        }
+        .col-izq {
+            float: left;
+            width: 48%; /* Menos del 50% para dar espacio */
+            background: #bbb;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .col-der {
+            float: right;
+            width: 48%; /* Menos del 50% para dar espacio */
+            background: #ccc;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .pie {
+            clear: both;
+            text-align: center;
+            padding: 10px;
+            background: #999;
+            margin-top: 20px; /* Separación de las columnas */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="col-izq">Columna Izquierda</div>
+        <div class="col-der">Columna Derecha</div>
+    </div>
+    <div class="pie">Pie de Página Centrado</div>
+</body>
+</html>

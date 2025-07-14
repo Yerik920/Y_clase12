@@ -1,0 +1,15 @@
+       .contenedor {
+            position: relative;
+            width: 300px;
+            height: 200px;
+            background: #eee;
+            border: 1px solid #ccc;
+        }
+
+        .absoluto {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background: salmon;
+            padding: 10px;
+        }
